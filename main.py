@@ -4,7 +4,8 @@ print('>> Hello ' + your_name)
 
 # Exercise 2 - Adding a number to an int
 given_number = int(input('Please enter a number: '))
-print(f"Your number is: {given_number}")
+added_number = given_number + 1
+print(f"Your number plus 1 is: {added_number}")
 
 # Exercise 3 - Adding a number to a float
 prefloat_number = int(input('Please provide a number: '))
